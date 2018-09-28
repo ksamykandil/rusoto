@@ -2,6 +2,7 @@
 
 ## [Unreleased]
 
+- Add Connect service
 - Add Cost Explorer
 - Add Performance Insights support
 - Add ServiceDiscovery support
