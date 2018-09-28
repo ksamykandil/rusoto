@@ -5,6 +5,7 @@
 - Add Cost Explorer
 - Add Performance Insights support
 - Add ServiceDiscovery support
+- Add MediaTailor support
 - Add Sentiment support
 - Add Sagemaker support
 - Add Transcribe service
