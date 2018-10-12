@@ -5874,8 +5874,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<AddTagsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5911,8 +5910,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<CreateEndpointOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5948,8 +5946,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<CreateEndpointConfigOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5985,8 +5982,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<CreateHyperParameterTuningJobResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6019,8 +6015,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<CreateModelOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6056,8 +6051,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<CreateNotebookInstanceOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6098,8 +6092,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<CreateNotebookInstanceLifecycleConfigOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6140,8 +6133,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<CreatePresignedNotebookInstanceUrlOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6176,8 +6168,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<CreateTrainingJobResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6213,8 +6204,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<CreateTransformJobResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6374,8 +6364,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<DeleteTagsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6411,8 +6400,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<DescribeEndpointOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6448,8 +6436,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<DescribeEndpointConfigOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6485,8 +6472,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<DescribeHyperParameterTuningJobResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6521,8 +6507,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<DescribeModelOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6558,8 +6543,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<DescribeNotebookInstanceOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6598,8 +6582,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<DescribeNotebookInstanceLifecycleConfigOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6634,8 +6617,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<DescribeTrainingJobResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6670,8 +6652,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<DescribeTransformJobResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6706,8 +6687,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<ListEndpointConfigsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6742,8 +6722,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<ListEndpointsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6779,8 +6758,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<ListHyperParameterTuningJobsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6813,8 +6791,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<ListModelsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6856,8 +6833,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<ListNotebookInstanceLifecycleConfigsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6892,8 +6868,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<ListNotebookInstancesOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6925,8 +6900,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<ListTagsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6962,8 +6936,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<ListTrainingJobsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -7005,8 +6978,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<ListTrainingJobsForHyperParameterTuningJobResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -7039,8 +7011,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<ListTransformJobsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -7201,8 +7172,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<UpdateEndpointOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -7244,8 +7214,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<UpdateEndpointWeightsAndCapacitiesOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -7280,8 +7249,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<UpdateNotebookInstanceOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -7322,8 +7290,7 @@ impl SageMaker for SageMakerClient {
 
                     serde_json::from_str::<UpdateNotebookInstanceLifecycleConfigOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {

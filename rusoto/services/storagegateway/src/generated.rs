@@ -9054,8 +9054,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<ActivateGatewayOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9088,8 +9087,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<AddCacheOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9125,8 +9123,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<AddTagsToResourceOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9162,8 +9159,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<AddUploadBufferOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9199,8 +9195,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<AddWorkingStorageOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9236,8 +9231,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<CancelArchivalOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9273,8 +9267,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<CancelRetrievalOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9313,8 +9306,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<CreateCachediSCSIVolumeOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -9347,8 +9339,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<CreateNFSFileShareOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9384,8 +9375,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<CreateSMBFileShareOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9421,8 +9411,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<CreateSnapshotOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9464,8 +9453,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<CreateSnapshotFromVolumeRecoveryPointOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -9503,8 +9491,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<CreateStorediSCSIVolumeOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -9540,8 +9527,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<CreateTapeWithBarcodeOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9576,8 +9562,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<CreateTapesOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9616,8 +9601,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<DeleteBandwidthRateLimitOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -9653,8 +9637,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<DeleteChapCredentialsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9689,8 +9672,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<DeleteFileShareOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9726,8 +9708,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<DeleteGatewayOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9766,8 +9747,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<DeleteSnapshotScheduleOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9802,8 +9782,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<DeleteTapeOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9839,8 +9818,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<DeleteTapeArchiveOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9876,8 +9854,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<DeleteVolumeOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9916,8 +9893,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<DescribeBandwidthRateLimitOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -9950,8 +9926,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<DescribeCacheOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9990,8 +9965,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<DescribeCachediSCSIVolumesOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -10027,8 +10001,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<DescribeChapCredentialsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -10064,8 +10037,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<DescribeGatewayInformationOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -10101,8 +10073,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<DescribeMaintenanceStartTimeOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -10138,8 +10109,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<DescribeNFSFileSharesOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10177,8 +10147,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<DescribeSMBFileSharesOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10216,8 +10185,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<DescribeSMBSettingsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10255,8 +10223,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<DescribeSnapshotScheduleOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -10292,8 +10259,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<DescribeStorediSCSIVolumesOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -10329,8 +10295,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<DescribeTapeArchivesOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10368,8 +10333,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<DescribeTapeRecoveryPointsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -10402,8 +10366,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<DescribeTapesOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10442,8 +10405,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<DescribeUploadBufferOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10478,8 +10440,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<DescribeVTLDevicesOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10518,8 +10479,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<DescribeWorkingStorageOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10554,8 +10514,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<DisableGatewayOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10591,8 +10550,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<JoinDomainOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10628,8 +10586,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<ListFileSharesOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10665,8 +10622,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<ListGatewaysOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10702,8 +10658,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<ListLocalDisksOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10742,8 +10697,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<ListTagsForResourceOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10775,8 +10729,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<ListTapesOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10815,8 +10768,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<ListVolumeInitiatorsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10854,8 +10806,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<ListVolumeRecoveryPointsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -10888,8 +10839,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<ListVolumesOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10925,8 +10875,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<NotifyWhenUploadedOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10962,8 +10911,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<RefreshCacheOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11002,8 +10950,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<RemoveTagsFromResourceOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11038,8 +10985,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<ResetCacheOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11078,8 +11024,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<RetrieveTapeArchiveOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11117,8 +11062,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<RetrieveTapeRecoveryPointOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -11154,8 +11098,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<SetLocalConsolePasswordOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -11191,8 +11134,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<SetSMBGuestPasswordOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11227,8 +11169,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<ShutdownGatewayOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11264,8 +11205,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<StartGatewayOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11304,8 +11244,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<UpdateBandwidthRateLimitOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -11341,8 +11280,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<UpdateChapCredentialsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11380,8 +11318,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<UpdateGatewayInformationOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -11417,8 +11354,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<UpdateGatewaySoftwareNowOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -11454,8 +11390,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<UpdateMaintenanceStartTimeOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -11488,8 +11423,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<UpdateNFSFileShareOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11525,8 +11459,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<UpdateSMBFileShareOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11565,8 +11498,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<UpdateSnapshotScheduleOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11604,8 +11536,7 @@ impl StorageGateway for StorageGatewayClient {
 
                     serde_json::from_str::<UpdateVTLDeviceTypeOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(

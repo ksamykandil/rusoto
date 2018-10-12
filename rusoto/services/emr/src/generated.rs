@@ -4825,8 +4825,7 @@ impl Emr for EmrClient {
 
                     serde_json::from_str::<AddInstanceFleetOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -4862,8 +4861,7 @@ impl Emr for EmrClient {
 
                     serde_json::from_str::<AddInstanceGroupsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -4899,8 +4897,7 @@ impl Emr for EmrClient {
 
                     serde_json::from_str::<AddJobFlowStepsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -4933,8 +4930,7 @@ impl Emr for EmrClient {
 
                     serde_json::from_str::<AddTagsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -4970,8 +4966,7 @@ impl Emr for EmrClient {
 
                     serde_json::from_str::<CancelStepsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5010,8 +5005,7 @@ impl Emr for EmrClient {
 
                     serde_json::from_str::<CreateSecurityConfigurationOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -5047,8 +5041,7 @@ impl Emr for EmrClient {
 
                     serde_json::from_str::<DeleteSecurityConfigurationOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -5081,8 +5074,7 @@ impl Emr for EmrClient {
 
                     serde_json::from_str::<DescribeClusterOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5118,8 +5110,7 @@ impl Emr for EmrClient {
 
                     serde_json::from_str::<DescribeJobFlowsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5158,8 +5149,7 @@ impl Emr for EmrClient {
 
                     serde_json::from_str::<DescribeSecurityConfigurationOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -5192,8 +5182,7 @@ impl Emr for EmrClient {
 
                     serde_json::from_str::<DescribeStepOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5229,8 +5218,7 @@ impl Emr for EmrClient {
 
                     serde_json::from_str::<ListBootstrapActionsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5265,8 +5253,7 @@ impl Emr for EmrClient {
 
                     serde_json::from_str::<ListClustersOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5302,8 +5289,7 @@ impl Emr for EmrClient {
 
                     serde_json::from_str::<ListInstanceFleetsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5339,8 +5325,7 @@ impl Emr for EmrClient {
 
                     serde_json::from_str::<ListInstanceGroupsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5376,8 +5361,7 @@ impl Emr for EmrClient {
 
                     serde_json::from_str::<ListInstancesOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5416,8 +5400,7 @@ impl Emr for EmrClient {
 
                     serde_json::from_str::<ListSecurityConfigurationsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -5447,8 +5430,7 @@ impl Emr for EmrClient {
 
                     serde_json::from_str::<ListStepsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5534,8 +5516,7 @@ impl Emr for EmrClient {
 
                     serde_json::from_str::<PutAutoScalingPolicyOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5570,8 +5551,7 @@ impl Emr for EmrClient {
 
                     serde_json::from_str::<RemoveAutoScalingPolicyOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -5604,8 +5584,7 @@ impl Emr for EmrClient {
 
                     serde_json::from_str::<RemoveTagsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5641,8 +5620,7 @@ impl Emr for EmrClient {
 
                     serde_json::from_str::<RunJobFlowOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(

@@ -9201,8 +9201,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<CreateDevicePoolResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9238,8 +9237,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<CreateInstanceProfileResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9274,8 +9272,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<CreateNetworkProfileResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9310,8 +9307,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<CreateProjectResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9350,8 +9346,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<CreateRemoteAccessSessionResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -9384,8 +9379,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<CreateUploadResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9424,8 +9418,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<CreateVPCEConfigurationResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -9458,8 +9451,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<DeleteDevicePoolResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9495,8 +9487,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<DeleteInstanceProfileResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9531,8 +9522,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<DeleteNetworkProfileResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9567,8 +9557,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<DeleteProjectResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9607,8 +9596,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<DeleteRemoteAccessSessionResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -9638,8 +9626,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<DeleteRunResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9675,8 +9662,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<DeleteUploadResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9715,8 +9701,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<DeleteVPCEConfigurationResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -9747,8 +9732,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<GetAccountSettingsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9781,8 +9765,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<GetDeviceResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9818,8 +9801,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<GetDeviceInstanceResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9855,8 +9837,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<GetDevicePoolResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9895,8 +9876,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<GetDevicePoolCompatibilityResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -9929,8 +9909,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<GetInstanceProfileResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -9963,8 +9942,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<GetJobResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10000,8 +9978,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<GetNetworkProfileResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10037,8 +10014,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<GetOfferingStatusResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10074,8 +10050,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<GetProjectResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10111,8 +10086,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<GetRemoteAccessSessionResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10144,8 +10118,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<GetRunResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10178,8 +10151,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<GetSuiteResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10212,8 +10184,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<GetTestResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10246,8 +10217,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<GetUploadResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10283,8 +10253,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<GetVPCEConfigurationResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10322,8 +10291,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<InstallToRemoteAccessSessionResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -10356,8 +10324,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<ListArtifactsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10393,8 +10360,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<ListDeviceInstancesResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10429,8 +10395,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<ListDevicePoolsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10466,8 +10431,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<ListDevicesResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10503,8 +10467,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<ListInstanceProfilesResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10536,8 +10499,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<ListJobsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10573,8 +10535,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<ListNetworkProfilesResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10609,8 +10570,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<ListOfferingPromotionsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10648,8 +10608,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<ListOfferingTransactionsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -10682,8 +10641,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<ListOfferingsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10719,8 +10677,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<ListProjectsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10759,8 +10716,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<ListRemoteAccessSessionsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -10790,8 +10746,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<ListRunsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10827,8 +10782,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<ListSamplesResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10864,8 +10818,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<ListSuitesResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10898,8 +10851,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<ListTestsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10935,8 +10887,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<ListUniqueProblemsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -10972,8 +10923,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<ListUploadsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11009,8 +10959,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<ListVPCEConfigurationsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11045,8 +10994,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<PurchaseOfferingResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11082,8 +11030,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<RenewOfferingResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11119,8 +11066,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<ScheduleRunResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11159,8 +11105,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<StopRemoteAccessSessionResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -11190,8 +11135,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<StopRunResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11227,8 +11171,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<UpdateDeviceInstanceResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11263,8 +11206,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<UpdateDevicePoolResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11300,8 +11242,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<UpdateInstanceProfileResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11336,8 +11277,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<UpdateNetworkProfileResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11372,8 +11312,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<UpdateProjectResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11412,8 +11351,7 @@ impl DeviceFarm for DeviceFarmClient {
 
                     serde_json::from_str::<UpdateVPCEConfigurationResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {

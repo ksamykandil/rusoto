@@ -5916,8 +5916,7 @@ impl Swf for SwfClient {
 
                     serde_json::from_str::<WorkflowExecutionCount>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -5953,8 +5952,7 @@ impl Swf for SwfClient {
 
                     serde_json::from_str::<WorkflowExecutionCount>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -5990,8 +5988,7 @@ impl Swf for SwfClient {
 
                     serde_json::from_str::<PendingTaskCount>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6027,8 +6024,7 @@ impl Swf for SwfClient {
 
                     serde_json::from_str::<PendingTaskCount>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6143,8 +6139,7 @@ impl Swf for SwfClient {
 
                     serde_json::from_str::<ActivityTypeDetail>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6179,8 +6174,7 @@ impl Swf for SwfClient {
 
                     serde_json::from_str::<DomainDetail>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6219,8 +6213,7 @@ impl Swf for SwfClient {
 
                     serde_json::from_str::<WorkflowExecutionDetail>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6253,8 +6246,7 @@ impl Swf for SwfClient {
 
                     serde_json::from_str::<WorkflowTypeDetail>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6324,8 +6316,7 @@ impl Swf for SwfClient {
 
                     serde_json::from_str::<ActivityTypeInfos>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6364,8 +6355,7 @@ impl Swf for SwfClient {
 
                     serde_json::from_str::<WorkflowExecutionInfos>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6395,8 +6385,7 @@ impl Swf for SwfClient {
 
                     serde_json::from_str::<DomainInfos>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6435,8 +6424,7 @@ impl Swf for SwfClient {
 
                     serde_json::from_str::<WorkflowExecutionInfos>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6469,8 +6457,7 @@ impl Swf for SwfClient {
 
                     serde_json::from_str::<WorkflowTypeInfos>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6506,8 +6493,7 @@ impl Swf for SwfClient {
 
                     serde_json::from_str::<ActivityTask>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6542,8 +6528,7 @@ impl Swf for SwfClient {
 
                     serde_json::from_str::<DecisionTask>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6581,8 +6566,7 @@ impl Swf for SwfClient {
 
                     serde_json::from_str::<ActivityTaskStatus>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {

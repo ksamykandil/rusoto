@@ -242,8 +242,7 @@ impl Translate for TranslateClient {
 
                     serde_json::from_str::<TranslateTextResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(

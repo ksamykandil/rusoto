@@ -47,7 +47,7 @@ pub struct AttributeValue {
     #[serde(
         deserialize_with = "::rusoto_core::serialization::SerdeBlob::deserialize_blob",
         serialize_with = "::rusoto_core::serialization::SerdeBlob::serialize_blob",
-        default
+        default,
     )]
     pub b: Option<Vec<u8>>,
     /// <p>An attribute of type Boolean. For example:</p> <p> <code>"BOOL": true</code> </p>
@@ -5590,8 +5590,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<BatchGetItemOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5627,8 +5626,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<BatchWriteItemOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5664,8 +5662,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<CreateBackupOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5701,8 +5698,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<CreateGlobalTableOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5738,8 +5734,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<CreateTableOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5775,8 +5770,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<DeleteBackupOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5812,8 +5806,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<DeleteItemOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5849,8 +5842,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<DeleteTableOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5886,8 +5878,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<DescribeBackupOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5926,8 +5917,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<DescribeContinuousBackupsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -5960,8 +5950,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<DescribeGlobalTableOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5999,8 +5988,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<DescribeGlobalTableSettingsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6029,8 +6017,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<DescribeLimitsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6066,8 +6053,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<DescribeTableOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6103,8 +6089,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<DescribeTimeToLiveOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6137,8 +6122,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<GetItemOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6174,8 +6158,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<ListBackupsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6211,8 +6194,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<ListGlobalTablesOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6248,8 +6230,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<ListTablesOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6285,8 +6266,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<ListTagsOfResourceOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6319,8 +6299,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<PutItemOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6353,8 +6332,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<QueryOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6390,8 +6368,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<RestoreTableFromBackupOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6429,8 +6406,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<RestoreTableToPointInTimeOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6460,8 +6436,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<ScanOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6543,8 +6518,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<UpdateContinuousBackupsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6577,8 +6551,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<UpdateGlobalTableOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6617,8 +6590,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<UpdateGlobalTableSettingsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6651,8 +6623,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<UpdateItemOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6688,8 +6659,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<UpdateTableOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6725,8 +6695,7 @@ impl DynamoDb for DynamoDbClient {
 
                     serde_json::from_str::<UpdateTimeToLiveOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(

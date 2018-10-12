@@ -1298,8 +1298,7 @@ impl Transcribe for TranscribeClient {
 
                     serde_json::from_str::<CreateVocabularyResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -1361,8 +1360,7 @@ impl Transcribe for TranscribeClient {
 
                     serde_json::from_str::<GetTranscriptionJobResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -1397,8 +1395,7 @@ impl Transcribe for TranscribeClient {
 
                     serde_json::from_str::<GetVocabularyResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -1434,8 +1431,7 @@ impl Transcribe for TranscribeClient {
 
                     serde_json::from_str::<ListTranscriptionJobsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -1470,8 +1466,7 @@ impl Transcribe for TranscribeClient {
 
                     serde_json::from_str::<ListVocabulariesResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -1507,8 +1502,7 @@ impl Transcribe for TranscribeClient {
 
                     serde_json::from_str::<StartTranscriptionJobResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -1543,8 +1537,7 @@ impl Transcribe for TranscribeClient {
 
                     serde_json::from_str::<UpdateVocabularyResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(

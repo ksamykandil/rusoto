@@ -2749,8 +2749,7 @@ impl StepFunctions for StepFunctionsClient {
 
                     serde_json::from_str::<CreateActivityOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -2786,8 +2785,7 @@ impl StepFunctions for StepFunctionsClient {
 
                     serde_json::from_str::<CreateStateMachineOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -2823,8 +2821,7 @@ impl StepFunctions for StepFunctionsClient {
 
                     serde_json::from_str::<DeleteActivityOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -2860,8 +2857,7 @@ impl StepFunctions for StepFunctionsClient {
 
                     serde_json::from_str::<DeleteStateMachineOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -2897,8 +2893,7 @@ impl StepFunctions for StepFunctionsClient {
 
                     serde_json::from_str::<DescribeActivityOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -2934,8 +2929,7 @@ impl StepFunctions for StepFunctionsClient {
 
                     serde_json::from_str::<DescribeExecutionOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -2971,8 +2965,7 @@ impl StepFunctions for StepFunctionsClient {
 
                     serde_json::from_str::<DescribeStateMachineOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3011,8 +3004,7 @@ impl StepFunctions for StepFunctionsClient {
 
                     serde_json::from_str::<DescribeStateMachineForExecutionOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -3047,8 +3039,7 @@ impl StepFunctions for StepFunctionsClient {
 
                     serde_json::from_str::<GetActivityTaskOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3084,8 +3075,7 @@ impl StepFunctions for StepFunctionsClient {
 
                     serde_json::from_str::<GetExecutionHistoryOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3120,8 +3110,7 @@ impl StepFunctions for StepFunctionsClient {
 
                     serde_json::from_str::<ListActivitiesOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3157,8 +3146,7 @@ impl StepFunctions for StepFunctionsClient {
 
                     serde_json::from_str::<ListExecutionsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3194,8 +3182,7 @@ impl StepFunctions for StepFunctionsClient {
 
                     serde_json::from_str::<ListStateMachinesOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3231,8 +3218,7 @@ impl StepFunctions for StepFunctionsClient {
 
                     serde_json::from_str::<SendTaskFailureOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3268,8 +3254,7 @@ impl StepFunctions for StepFunctionsClient {
 
                     serde_json::from_str::<SendTaskHeartbeatOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3305,8 +3290,7 @@ impl StepFunctions for StepFunctionsClient {
 
                     serde_json::from_str::<SendTaskSuccessOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3342,8 +3326,7 @@ impl StepFunctions for StepFunctionsClient {
 
                     serde_json::from_str::<StartExecutionOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3379,8 +3362,7 @@ impl StepFunctions for StepFunctionsClient {
 
                     serde_json::from_str::<StopExecutionOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3416,8 +3398,7 @@ impl StepFunctions for StepFunctionsClient {
 
                     serde_json::from_str::<UpdateStateMachineOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(

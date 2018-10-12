@@ -3175,8 +3175,7 @@ impl Workspaces for WorkspacesClient {
 
                     serde_json::from_str::<AssociateIpGroupsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3212,8 +3211,7 @@ impl Workspaces for WorkspacesClient {
 
                     serde_json::from_str::<AuthorizeIpRulesResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3249,8 +3247,7 @@ impl Workspaces for WorkspacesClient {
 
                     serde_json::from_str::<CreateIpGroupResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3286,8 +3283,7 @@ impl Workspaces for WorkspacesClient {
 
                     serde_json::from_str::<CreateTagsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3323,8 +3319,7 @@ impl Workspaces for WorkspacesClient {
 
                     serde_json::from_str::<CreateWorkspacesResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3360,8 +3355,7 @@ impl Workspaces for WorkspacesClient {
 
                     serde_json::from_str::<DeleteIpGroupResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3397,8 +3391,7 @@ impl Workspaces for WorkspacesClient {
 
                     serde_json::from_str::<DeleteTagsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3434,8 +3427,7 @@ impl Workspaces for WorkspacesClient {
 
                     serde_json::from_str::<DescribeIpGroupsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3471,8 +3463,7 @@ impl Workspaces for WorkspacesClient {
 
                     serde_json::from_str::<DescribeTagsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3508,8 +3499,7 @@ impl Workspaces for WorkspacesClient {
 
                     serde_json::from_str::<DescribeWorkspaceBundlesResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -3545,8 +3535,7 @@ impl Workspaces for WorkspacesClient {
 
                     serde_json::from_str::<DescribeWorkspaceDirectoriesResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -3579,8 +3568,7 @@ impl Workspaces for WorkspacesClient {
 
                     serde_json::from_str::<DescribeWorkspacesResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3622,8 +3610,7 @@ impl Workspaces for WorkspacesClient {
 
                     serde_json::from_str::<DescribeWorkspacesConnectionStatusResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -3658,8 +3645,7 @@ impl Workspaces for WorkspacesClient {
 
                     serde_json::from_str::<DisassociateIpGroupsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3697,8 +3683,7 @@ impl Workspaces for WorkspacesClient {
 
                     serde_json::from_str::<ModifyWorkspacePropertiesResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -3731,8 +3716,7 @@ impl Workspaces for WorkspacesClient {
 
                     serde_json::from_str::<ModifyWorkspaceStateResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3767,8 +3751,7 @@ impl Workspaces for WorkspacesClient {
 
                     serde_json::from_str::<RebootWorkspacesResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3804,8 +3787,7 @@ impl Workspaces for WorkspacesClient {
 
                     serde_json::from_str::<RebuildWorkspacesResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3841,8 +3823,7 @@ impl Workspaces for WorkspacesClient {
 
                     serde_json::from_str::<RevokeIpRulesResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3878,8 +3859,7 @@ impl Workspaces for WorkspacesClient {
 
                     serde_json::from_str::<StartWorkspacesResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3915,8 +3895,7 @@ impl Workspaces for WorkspacesClient {
 
                     serde_json::from_str::<StopWorkspacesResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3952,8 +3931,7 @@ impl Workspaces for WorkspacesClient {
 
                     serde_json::from_str::<TerminateWorkspacesResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3988,8 +3966,7 @@ impl Workspaces for WorkspacesClient {
 
                     serde_json::from_str::<UpdateRulesOfIpGroupResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(

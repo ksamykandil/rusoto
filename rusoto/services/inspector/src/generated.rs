@@ -5488,8 +5488,7 @@ impl Inspector for InspectorClient {
 
                     serde_json::from_str::<AddAttributesToFindingsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -5522,8 +5521,7 @@ impl Inspector for InspectorClient {
 
                     serde_json::from_str::<CreateAssessmentTargetResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5558,8 +5556,7 @@ impl Inspector for InspectorClient {
 
                     serde_json::from_str::<CreateAssessmentTemplateResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -5592,8 +5589,7 @@ impl Inspector for InspectorClient {
 
                     serde_json::from_str::<CreateExclusionsPreviewResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -5626,8 +5622,7 @@ impl Inspector for InspectorClient {
 
                     serde_json::from_str::<CreateResourceGroupResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5735,8 +5730,7 @@ impl Inspector for InspectorClient {
 
                     serde_json::from_str::<DescribeAssessmentRunsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5771,8 +5765,7 @@ impl Inspector for InspectorClient {
 
                     serde_json::from_str::<DescribeAssessmentTargetsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -5808,8 +5801,7 @@ impl Inspector for InspectorClient {
 
                     serde_json::from_str::<DescribeAssessmentTemplatesResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -5844,8 +5836,7 @@ impl Inspector for InspectorClient {
 
                     serde_json::from_str::<DescribeCrossAccountAccessRoleResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -5878,8 +5869,7 @@ impl Inspector for InspectorClient {
 
                     serde_json::from_str::<DescribeExclusionsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5915,8 +5905,7 @@ impl Inspector for InspectorClient {
 
                     serde_json::from_str::<DescribeFindingsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5952,8 +5941,7 @@ impl Inspector for InspectorClient {
 
                     serde_json::from_str::<DescribeResourceGroupsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5988,8 +5976,7 @@ impl Inspector for InspectorClient {
 
                     serde_json::from_str::<DescribeRulesPackagesResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6024,8 +6011,7 @@ impl Inspector for InspectorClient {
 
                     serde_json::from_str::<GetAssessmentReportResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6060,8 +6046,7 @@ impl Inspector for InspectorClient {
 
                     serde_json::from_str::<GetExclusionsPreviewResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6096,8 +6081,7 @@ impl Inspector for InspectorClient {
 
                     serde_json::from_str::<GetTelemetryMetadataResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6132,8 +6116,7 @@ impl Inspector for InspectorClient {
 
                     serde_json::from_str::<ListAssessmentRunAgentsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6166,8 +6149,7 @@ impl Inspector for InspectorClient {
 
                     serde_json::from_str::<ListAssessmentRunsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6203,8 +6185,7 @@ impl Inspector for InspectorClient {
 
                     serde_json::from_str::<ListAssessmentTargetsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6239,8 +6220,7 @@ impl Inspector for InspectorClient {
 
                     serde_json::from_str::<ListAssessmentTemplatesResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6273,8 +6253,7 @@ impl Inspector for InspectorClient {
 
                     serde_json::from_str::<ListEventSubscriptionsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6309,8 +6288,7 @@ impl Inspector for InspectorClient {
 
                     serde_json::from_str::<ListExclusionsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6346,8 +6324,7 @@ impl Inspector for InspectorClient {
 
                     serde_json::from_str::<ListFindingsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6383,8 +6360,7 @@ impl Inspector for InspectorClient {
 
                     serde_json::from_str::<ListRulesPackagesResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6420,8 +6396,7 @@ impl Inspector for InspectorClient {
 
                     serde_json::from_str::<ListTagsForResourceResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6456,8 +6431,7 @@ impl Inspector for InspectorClient {
 
                     serde_json::from_str::<PreviewAgentsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6522,8 +6496,7 @@ impl Inspector for InspectorClient {
 
                     serde_json::from_str::<RemoveAttributesFromFindingsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6582,8 +6555,7 @@ impl Inspector for InspectorClient {
 
                     serde_json::from_str::<StartAssessmentRunResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(

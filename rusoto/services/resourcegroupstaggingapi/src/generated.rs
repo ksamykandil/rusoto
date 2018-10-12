@@ -769,8 +769,7 @@ impl ResourceGroupsTaggingApi for ResourceGroupsTaggingApiClient {
 
                     serde_json::from_str::<GetResourcesOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -809,8 +808,7 @@ impl ResourceGroupsTaggingApi for ResourceGroupsTaggingApiClient {
 
                     serde_json::from_str::<GetTagKeysOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -849,8 +847,7 @@ impl ResourceGroupsTaggingApi for ResourceGroupsTaggingApiClient {
 
                     serde_json::from_str::<GetTagValuesOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -889,8 +886,7 @@ impl ResourceGroupsTaggingApi for ResourceGroupsTaggingApiClient {
 
                     serde_json::from_str::<TagResourcesOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -929,8 +925,7 @@ impl ResourceGroupsTaggingApi for ResourceGroupsTaggingApiClient {
 
                     serde_json::from_str::<UntagResourcesOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(

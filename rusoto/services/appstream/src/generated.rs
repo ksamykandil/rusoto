@@ -5168,8 +5168,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<AssociateFleetResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5205,8 +5204,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<CopyImageResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5245,8 +5243,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<CreateDirectoryConfigResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5281,8 +5278,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<CreateFleetResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5318,8 +5314,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<CreateImageBuilderResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5359,8 +5354,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<CreateImageBuilderStreamingURLResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -5393,8 +5387,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<CreateStackResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5430,8 +5423,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<CreateStreamingURLResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5470,8 +5462,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<DeleteDirectoryConfigResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5506,8 +5497,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<DeleteFleetResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5543,8 +5533,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<DeleteImageResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5580,8 +5569,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<DeleteImageBuilderResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5620,8 +5608,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<DeleteImagePermissionsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5656,8 +5643,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<DeleteStackResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5696,8 +5682,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<DescribeDirectoryConfigsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -5730,8 +5715,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<DescribeFleetsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5770,8 +5754,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<DescribeImageBuildersResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5809,8 +5792,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<DescribeImagePermissionsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -5843,8 +5825,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<DescribeImagesResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5880,8 +5861,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<DescribeSessionsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5917,8 +5897,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<DescribeStacksResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5954,8 +5933,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<DisassociateFleetResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -5991,8 +5969,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<ExpireSessionResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6031,8 +6008,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<ListAssociatedFleetsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6070,8 +6046,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<ListAssociatedStacksResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6109,8 +6084,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<ListTagsForResourceResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6145,8 +6119,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<StartFleetResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6182,8 +6155,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<StartImageBuilderResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6216,8 +6188,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<StopFleetResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6253,8 +6224,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<StopImageBuilderResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6290,8 +6260,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<TagResourceResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6327,8 +6296,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<UntagResourceResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6367,8 +6335,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<UpdateDirectoryConfigResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6403,8 +6370,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<UpdateFleetResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6443,8 +6409,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<UpdateImagePermissionsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6479,8 +6444,7 @@ impl AppStream for AppStreamClient {
 
                     serde_json::from_str::<UpdateStackResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(

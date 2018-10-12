@@ -894,7 +894,7 @@ pub struct UploadLayerPartRequest {
     #[serde(
         deserialize_with = "::rusoto_core::serialization::SerdeBlob::deserialize_blob",
         serialize_with = "::rusoto_core::serialization::SerdeBlob::serialize_blob",
-        default
+        default,
     )]
     pub layer_part_blob: Vec<u8>,
     /// <p>The integer value of the first byte of the layer part.</p>
@@ -3348,8 +3348,7 @@ impl Ecr for EcrClient {
 
                     serde_json::from_str::<BatchCheckLayerAvailabilityResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -3385,8 +3384,7 @@ impl Ecr for EcrClient {
 
                     serde_json::from_str::<BatchDeleteImageResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3425,8 +3423,7 @@ impl Ecr for EcrClient {
 
                     serde_json::from_str::<BatchGetImageResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3465,8 +3462,7 @@ impl Ecr for EcrClient {
 
                     serde_json::from_str::<CompleteLayerUploadResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3504,8 +3500,7 @@ impl Ecr for EcrClient {
 
                     serde_json::from_str::<CreateRepositoryResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3544,8 +3539,7 @@ impl Ecr for EcrClient {
 
                     serde_json::from_str::<DeleteLifecyclePolicyResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3583,8 +3577,7 @@ impl Ecr for EcrClient {
 
                     serde_json::from_str::<DeleteRepositoryResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3623,8 +3616,7 @@ impl Ecr for EcrClient {
 
                     serde_json::from_str::<DeleteRepositoryPolicyResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3662,8 +3654,7 @@ impl Ecr for EcrClient {
 
                     serde_json::from_str::<DescribeImagesResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3702,8 +3693,7 @@ impl Ecr for EcrClient {
 
                     serde_json::from_str::<DescribeRepositoriesResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3741,8 +3731,7 @@ impl Ecr for EcrClient {
 
                     serde_json::from_str::<GetAuthorizationTokenResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3780,8 +3769,7 @@ impl Ecr for EcrClient {
 
                     serde_json::from_str::<GetDownloadUrlForLayerResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3819,8 +3807,7 @@ impl Ecr for EcrClient {
 
                     serde_json::from_str::<GetLifecyclePolicyResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3859,8 +3846,7 @@ impl Ecr for EcrClient {
 
                     serde_json::from_str::<GetLifecyclePolicyPreviewResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -3896,8 +3882,7 @@ impl Ecr for EcrClient {
 
                     serde_json::from_str::<GetRepositoryPolicyResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3935,8 +3920,7 @@ impl Ecr for EcrClient {
 
                     serde_json::from_str::<InitiateLayerUploadResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -3974,8 +3958,7 @@ impl Ecr for EcrClient {
 
                     serde_json::from_str::<ListImagesResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -4011,8 +3994,7 @@ impl Ecr for EcrClient {
 
                     serde_json::from_str::<PutImageResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -4051,8 +4033,7 @@ impl Ecr for EcrClient {
 
                     serde_json::from_str::<PutLifecyclePolicyResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -4091,8 +4072,7 @@ impl Ecr for EcrClient {
 
                     serde_json::from_str::<SetRepositoryPolicyResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -4130,8 +4110,7 @@ impl Ecr for EcrClient {
 
                     serde_json::from_str::<StartLifecyclePolicyPreviewResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -4167,8 +4146,7 @@ impl Ecr for EcrClient {
 
                     serde_json::from_str::<UploadLayerPartResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(

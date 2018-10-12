@@ -6249,8 +6249,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<BatchGetResourceConfigResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6417,8 +6416,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<DeleteEvaluationResultsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6505,8 +6503,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<DeliverConfigSnapshotResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6547,8 +6544,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<DescribeAggregateComplianceByConfigRulesResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6587,8 +6583,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<DescribeAggregationAuthorizationsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6627,8 +6622,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<DescribeComplianceByConfigRuleResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6664,8 +6658,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<DescribeComplianceByResourceResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6704,8 +6697,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<DescribeConfigRuleEvaluationStatusResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6740,8 +6732,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<DescribeConfigRulesResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -6782,8 +6773,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<DescribeConfigurationAggregatorSourcesStatusResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6820,8 +6810,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<DescribeConfigurationAggregatorsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6862,8 +6851,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<DescribeConfigurationRecorderStatusResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6902,8 +6890,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<DescribeConfigurationRecordersResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6940,8 +6927,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<DescribeDeliveryChannelStatusResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -6977,8 +6963,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<DescribeDeliveryChannelsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -7017,8 +7002,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<DescribePendingAggregationRequestsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -7057,8 +7041,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<DescribeRetentionConfigurationsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -7099,8 +7082,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<GetAggregateComplianceDetailsByConfigRuleResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -7139,8 +7121,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<GetAggregateConfigRuleComplianceSummaryResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -7179,8 +7160,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<GetComplianceDetailsByConfigRuleResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -7219,8 +7199,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<GetComplianceDetailsByResourceResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -7255,8 +7234,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<GetComplianceSummaryByConfigRuleResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -7297,8 +7275,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<GetComplianceSummaryByResourceTypeResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -7336,8 +7313,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<GetDiscoveredResourceCountsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -7373,8 +7349,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<GetResourceConfigHistoryResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -7410,8 +7385,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<ListDiscoveredResourcesResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -7447,8 +7421,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<PutAggregationAuthorizationResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -7507,8 +7480,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<PutConfigurationAggregatorResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -7593,8 +7565,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<PutEvaluationsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -7633,8 +7604,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<PutRetentionConfigurationResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -7670,8 +7640,7 @@ impl ConfigService for ConfigServiceClient {
 
                     serde_json::from_str::<StartConfigRulesEvaluationResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {

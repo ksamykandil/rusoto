@@ -1728,8 +1728,7 @@ impl CloudHsmv2 for CloudHsmv2Client {
 
                     serde_json::from_str::<CopyBackupToRegionResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -1765,8 +1764,7 @@ impl CloudHsmv2 for CloudHsmv2Client {
 
                     serde_json::from_str::<CreateClusterResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -1802,8 +1800,7 @@ impl CloudHsmv2 for CloudHsmv2Client {
 
                     serde_json::from_str::<CreateHsmResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -1839,8 +1836,7 @@ impl CloudHsmv2 for CloudHsmv2Client {
 
                     serde_json::from_str::<DeleteClusterResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -1876,8 +1872,7 @@ impl CloudHsmv2 for CloudHsmv2Client {
 
                     serde_json::from_str::<DeleteHsmResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -1913,8 +1908,7 @@ impl CloudHsmv2 for CloudHsmv2Client {
 
                     serde_json::from_str::<DescribeBackupsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -1950,8 +1944,7 @@ impl CloudHsmv2 for CloudHsmv2Client {
 
                     serde_json::from_str::<DescribeClustersResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -1987,8 +1980,7 @@ impl CloudHsmv2 for CloudHsmv2Client {
 
                     serde_json::from_str::<InitializeClusterResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -2021,8 +2013,7 @@ impl CloudHsmv2 for CloudHsmv2Client {
 
                     serde_json::from_str::<ListTagsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -2058,8 +2049,7 @@ impl CloudHsmv2 for CloudHsmv2Client {
 
                     serde_json::from_str::<TagResourceResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -2095,8 +2085,7 @@ impl CloudHsmv2 for CloudHsmv2Client {
 
                     serde_json::from_str::<UntagResourceResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(

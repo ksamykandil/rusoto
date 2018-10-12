@@ -11316,8 +11316,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<AllocateStaticIpResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11353,8 +11352,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<AttachDiskResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11393,8 +11391,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<AttachInstancesToLoadBalancerResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -11431,8 +11428,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<AttachLoadBalancerTlsCertificateResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -11467,8 +11463,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<AttachStaticIpResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11507,8 +11502,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<CloseInstancePublicPortsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -11541,8 +11535,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<CreateDiskResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11578,8 +11571,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<CreateDiskFromSnapshotResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11614,8 +11606,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<CreateDiskSnapshotResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11651,8 +11642,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<CreateDomainResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11688,8 +11678,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<CreateDomainEntryResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11725,8 +11714,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<CreateInstanceSnapshotResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11761,8 +11749,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<CreateInstancesResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11801,8 +11788,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<CreateInstancesFromSnapshotResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -11835,8 +11821,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<CreateKeyPairResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11872,8 +11857,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<CreateLoadBalancerResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11913,8 +11897,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<CreateLoadBalancerTlsCertificateResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -11949,8 +11932,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<DeleteDiskResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -11986,8 +11968,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<DeleteDiskSnapshotResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -12023,8 +12004,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<DeleteDomainResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -12060,8 +12040,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<DeleteDomainEntryResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -12097,8 +12076,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<DeleteInstanceResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -12134,8 +12112,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<DeleteInstanceSnapshotResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -12170,8 +12147,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<DeleteKeyPairResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -12207,8 +12183,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<DeleteLoadBalancerResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -12248,8 +12223,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<DeleteLoadBalancerTlsCertificateResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -12284,8 +12258,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<DetachDiskResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -12325,8 +12298,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<DetachInstancesFromLoadBalancerResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -12361,8 +12333,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<DetachStaticIpResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -12396,8 +12367,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<DownloadDefaultKeyPairResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -12432,8 +12402,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<GetActiveNamesResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -12469,8 +12438,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<GetBlueprintsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -12506,8 +12474,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<GetBundlesResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -12540,8 +12507,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<GetDiskResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -12577,8 +12543,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<GetDiskSnapshotResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -12614,8 +12579,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<GetDiskSnapshotsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -12648,8 +12612,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<GetDisksResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -12682,8 +12645,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<GetDomainResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -12719,8 +12681,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<GetDomainsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -12756,8 +12717,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<GetInstanceResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -12796,8 +12756,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<GetInstanceAccessDetailsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -12830,8 +12789,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<GetInstanceMetricDataResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -12866,8 +12824,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<GetInstancePortStatesResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -12902,8 +12859,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<GetInstanceSnapshotResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -12938,8 +12894,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<GetInstanceSnapshotsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -12974,8 +12929,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<GetInstanceStateResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -13011,8 +12965,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<GetInstancesResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -13048,8 +13001,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<GetKeyPairResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -13085,8 +13037,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<GetKeyPairsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -13122,8 +13073,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<GetLoadBalancerResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -13162,8 +13112,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<GetLoadBalancerMetricDataResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -13200,8 +13149,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<GetLoadBalancerTlsCertificatesResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -13234,8 +13182,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<GetLoadBalancersResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -13271,8 +13218,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<GetOperationResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -13308,8 +13254,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<GetOperationsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -13348,8 +13293,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<GetOperationsForResourceResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -13382,8 +13326,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<GetRegionsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -13419,8 +13362,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<GetStaticIpResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -13456,8 +13398,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<GetStaticIpsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -13493,8 +13434,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<ImportKeyPairResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -13526,8 +13466,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<IsVpcPeeredResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -13563,8 +13502,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<OpenInstancePublicPortsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -13593,8 +13531,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<PeerVpcResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -13630,8 +13567,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<PutInstancePublicPortsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -13666,8 +13602,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<RebootInstanceResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -13703,8 +13638,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<ReleaseStaticIpResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -13740,8 +13674,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<StartInstanceResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -13777,8 +13710,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<StopInstanceResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -13810,8 +13742,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<UnpeerVpcResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -13847,8 +13778,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<UpdateDomainEntryResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(
@@ -13887,8 +13817,7 @@ impl Lightsail for LightsailClient {
 
                     serde_json::from_str::<UpdateLoadBalancerAttributeResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    )
-                    .unwrap()
+                    ).unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
