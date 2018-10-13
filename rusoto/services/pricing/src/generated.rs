@@ -563,7 +563,8 @@ impl Pricing for PricingClient {
 
                     serde_json::from_str::<DescribeServicesResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -599,7 +600,8 @@ impl Pricing for PricingClient {
 
                     serde_json::from_str::<GetAttributeValuesResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -635,7 +637,8 @@ impl Pricing for PricingClient {
 
                     serde_json::from_str::<GetProductsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(

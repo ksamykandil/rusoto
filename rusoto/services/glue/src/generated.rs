@@ -11651,7 +11651,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<BatchCreatePartitionResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -11686,7 +11687,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<BatchDeleteConnectionResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -11721,7 +11723,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<BatchDeletePartitionResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -11756,7 +11759,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<BatchDeleteTableResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -11792,7 +11796,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<BatchDeleteTableVersionResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -11825,7 +11830,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<BatchGetPartitionResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -11861,7 +11867,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<BatchStopJobRunResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -11896,7 +11903,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<CreateClassifierResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -11932,7 +11940,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<CreateConnectionResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -11968,7 +11977,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<CreateCrawlerResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -12004,7 +12014,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<CreateDatabaseResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -12040,7 +12051,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<CreateDevEndpointResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -12076,7 +12088,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<CreateJobResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -12112,7 +12125,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<CreatePartitionResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -12148,7 +12162,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<CreateScriptResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -12184,7 +12199,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<CreateTableResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -12220,7 +12236,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<CreateTriggerResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -12256,7 +12273,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<CreateUserDefinedFunctionResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -12289,7 +12307,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<DeleteClassifierResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -12325,7 +12344,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<DeleteConnectionResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -12361,7 +12381,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<DeleteCrawlerResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -12397,7 +12418,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<DeleteDatabaseResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -12433,7 +12455,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<DeleteDevEndpointResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -12469,7 +12492,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<DeleteJobResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -12505,7 +12529,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<DeletePartitionResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -12541,7 +12566,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<DeleteTableResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -12577,7 +12603,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<DeleteTableVersionResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -12613,7 +12640,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<DeleteTriggerResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -12649,7 +12677,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<DeleteUserDefinedFunctionResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -12682,7 +12711,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<GetCatalogImportStatusResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -12717,7 +12747,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<GetClassifierResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -12753,7 +12784,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<GetClassifiersResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -12789,7 +12821,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<GetConnectionResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -12825,7 +12858,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<GetConnectionsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -12861,7 +12895,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<GetCrawlerResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -12897,7 +12932,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<GetCrawlerMetricsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -12933,7 +12969,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<GetCrawlersResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -12969,7 +13006,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<GetDatabaseResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -13005,7 +13043,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<GetDatabasesResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -13041,7 +13080,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<GetDataflowGraphResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -13077,7 +13117,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<GetDevEndpointResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -13113,7 +13154,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<GetDevEndpointsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -13146,7 +13188,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<GetJobResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -13182,7 +13225,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<GetJobRunResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -13218,7 +13262,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<GetJobRunsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -13251,7 +13296,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<GetJobsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -13287,7 +13333,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<GetMappingResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -13323,7 +13370,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<GetPartitionResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -13359,7 +13407,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<GetPartitionsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -13392,7 +13441,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<GetPlanResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -13425,7 +13475,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<GetTableResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -13461,7 +13512,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<GetTableVersionResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -13497,7 +13549,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<GetTableVersionsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -13533,7 +13586,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<GetTablesResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -13569,7 +13623,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<GetTriggerResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -13605,7 +13660,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<GetTriggersResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -13641,7 +13697,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<GetUserDefinedFunctionResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -13676,7 +13733,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<GetUserDefinedFunctionsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -13709,7 +13767,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<ImportCatalogToGlueResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -13744,7 +13803,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<ResetJobBookmarkResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -13780,7 +13840,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<StartCrawlerResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -13816,7 +13877,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<StartCrawlerScheduleResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -13851,7 +13913,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<StartJobRunResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -13887,7 +13950,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<StartTriggerResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -13923,7 +13987,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<StopCrawlerResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -13959,7 +14024,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<StopCrawlerScheduleResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -13994,7 +14060,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<StopTriggerResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -14030,7 +14097,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<UpdateClassifierResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -14066,7 +14134,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<UpdateConnectionResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -14102,7 +14171,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<UpdateCrawlerResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -14138,7 +14208,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<UpdateCrawlerScheduleResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -14173,7 +14244,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<UpdateDatabaseResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -14209,7 +14281,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<UpdateDevEndpointResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -14245,7 +14318,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<UpdateJobResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -14281,7 +14355,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<UpdatePartitionResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -14317,7 +14392,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<UpdateTableResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -14353,7 +14429,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<UpdateTriggerResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -14389,7 +14466,8 @@ impl Glue for GlueClient {
 
                     serde_json::from_str::<UpdateUserDefinedFunctionResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {

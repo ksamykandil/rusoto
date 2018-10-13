@@ -2498,7 +2498,8 @@ impl CodeBuild for CodeBuildClient {
 
                     serde_json::from_str::<BatchDeleteBuildsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2534,7 +2535,8 @@ impl CodeBuild for CodeBuildClient {
 
                     serde_json::from_str::<BatchGetBuildsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2570,7 +2572,8 @@ impl CodeBuild for CodeBuildClient {
 
                     serde_json::from_str::<BatchGetProjectsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2606,7 +2609,8 @@ impl CodeBuild for CodeBuildClient {
 
                     serde_json::from_str::<CreateProjectOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2642,7 +2646,8 @@ impl CodeBuild for CodeBuildClient {
 
                     serde_json::from_str::<CreateWebhookOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2678,7 +2683,8 @@ impl CodeBuild for CodeBuildClient {
 
                     serde_json::from_str::<DeleteProjectOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2714,7 +2720,8 @@ impl CodeBuild for CodeBuildClient {
 
                     serde_json::from_str::<DeleteWebhookOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2750,7 +2757,8 @@ impl CodeBuild for CodeBuildClient {
 
                     serde_json::from_str::<InvalidateProjectCacheOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2785,7 +2793,8 @@ impl CodeBuild for CodeBuildClient {
 
                     serde_json::from_str::<ListBuildsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2821,7 +2830,8 @@ impl CodeBuild for CodeBuildClient {
 
                     serde_json::from_str::<ListBuildsForProjectOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2857,7 +2867,8 @@ impl CodeBuild for CodeBuildClient {
 
                     serde_json::from_str::<ListCuratedEnvironmentImagesOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -2890,7 +2901,8 @@ impl CodeBuild for CodeBuildClient {
 
                     serde_json::from_str::<ListProjectsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2926,7 +2938,8 @@ impl CodeBuild for CodeBuildClient {
 
                     serde_json::from_str::<StartBuildOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2959,7 +2972,8 @@ impl CodeBuild for CodeBuildClient {
 
                     serde_json::from_str::<StopBuildOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2995,7 +3009,8 @@ impl CodeBuild for CodeBuildClient {
 
                     serde_json::from_str::<UpdateProjectOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -3031,7 +3046,8 @@ impl CodeBuild for CodeBuildClient {
 
                     serde_json::from_str::<UpdateWebhookOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(

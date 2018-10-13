@@ -538,7 +538,8 @@ impl MarketplaceMetering for MarketplaceMeteringClient {
 
                     serde_json::from_str::<BatchMeterUsageResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -574,7 +575,8 @@ impl MarketplaceMetering for MarketplaceMeteringClient {
 
                     serde_json::from_str::<MeterUsageResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -610,7 +612,8 @@ impl MarketplaceMetering for MarketplaceMeteringClient {
 
                     serde_json::from_str::<ResolveCustomerResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(

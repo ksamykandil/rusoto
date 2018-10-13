@@ -2379,7 +2379,8 @@ impl CodeStar for CodeStarClient {
 
                     serde_json::from_str::<AssociateTeamMemberResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2414,7 +2415,8 @@ impl CodeStar for CodeStarClient {
 
                     serde_json::from_str::<CreateProjectResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2450,7 +2452,8 @@ impl CodeStar for CodeStarClient {
 
                     serde_json::from_str::<CreateUserProfileResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2486,7 +2489,8 @@ impl CodeStar for CodeStarClient {
 
                     serde_json::from_str::<DeleteProjectResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2522,7 +2526,8 @@ impl CodeStar for CodeStarClient {
 
                     serde_json::from_str::<DeleteUserProfileResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2558,7 +2563,8 @@ impl CodeStar for CodeStarClient {
 
                     serde_json::from_str::<DescribeProjectResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2594,7 +2600,8 @@ impl CodeStar for CodeStarClient {
 
                     serde_json::from_str::<DescribeUserProfileResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2629,7 +2636,8 @@ impl CodeStar for CodeStarClient {
 
                     serde_json::from_str::<DisassociateTeamMemberResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2664,7 +2672,8 @@ impl CodeStar for CodeStarClient {
 
                     serde_json::from_str::<ListProjectsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2700,7 +2709,8 @@ impl CodeStar for CodeStarClient {
 
                     serde_json::from_str::<ListResourcesResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2736,7 +2746,8 @@ impl CodeStar for CodeStarClient {
 
                     serde_json::from_str::<ListTagsForProjectResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2772,7 +2783,8 @@ impl CodeStar for CodeStarClient {
 
                     serde_json::from_str::<ListTeamMembersResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2808,7 +2820,8 @@ impl CodeStar for CodeStarClient {
 
                     serde_json::from_str::<ListUserProfilesResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2844,7 +2857,8 @@ impl CodeStar for CodeStarClient {
 
                     serde_json::from_str::<TagProjectResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2880,7 +2894,8 @@ impl CodeStar for CodeStarClient {
 
                     serde_json::from_str::<UntagProjectResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2916,7 +2931,8 @@ impl CodeStar for CodeStarClient {
 
                     serde_json::from_str::<UpdateProjectResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2952,7 +2968,8 @@ impl CodeStar for CodeStarClient {
 
                     serde_json::from_str::<UpdateTeamMemberResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2988,7 +3005,8 @@ impl CodeStar for CodeStarClient {
 
                     serde_json::from_str::<UpdateUserProfileResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(

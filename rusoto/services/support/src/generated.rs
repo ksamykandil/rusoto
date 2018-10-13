@@ -90,7 +90,7 @@ pub struct Attachment {
     #[serde(
         deserialize_with = "::rusoto_core::serialization::SerdeBlob::deserialize_blob",
         serialize_with = "::rusoto_core::serialization::SerdeBlob::serialize_blob",
-        default,
+        default
     )]
     pub data: Option<Vec<u8>>,
     /// <p>The name of the attachment file.</p>
@@ -2116,7 +2116,8 @@ impl AWSSupport for AWSSupportClient {
 
                     serde_json::from_str::<AddAttachmentsToSetResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2151,7 +2152,8 @@ impl AWSSupport for AWSSupportClient {
 
                     serde_json::from_str::<AddCommunicationToCaseResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2186,7 +2188,8 @@ impl AWSSupport for AWSSupportClient {
 
                     serde_json::from_str::<CreateCaseResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2222,7 +2225,8 @@ impl AWSSupport for AWSSupportClient {
 
                     serde_json::from_str::<DescribeAttachmentResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2258,7 +2262,8 @@ impl AWSSupport for AWSSupportClient {
 
                     serde_json::from_str::<DescribeCasesResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2294,7 +2299,8 @@ impl AWSSupport for AWSSupportClient {
 
                     serde_json::from_str::<DescribeCommunicationsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2329,7 +2335,8 @@ impl AWSSupport for AWSSupportClient {
 
                     serde_json::from_str::<DescribeServicesResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2365,7 +2372,8 @@ impl AWSSupport for AWSSupportClient {
 
                     serde_json::from_str::<DescribeSeverityLevelsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2406,7 +2414,8 @@ impl AWSSupport for AWSSupportClient {
 
                     serde_json::from_str::<DescribeTrustedAdvisorCheckRefreshStatusesResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -2445,7 +2454,8 @@ impl AWSSupport for AWSSupportClient {
 
                     serde_json::from_str::<DescribeTrustedAdvisorCheckResultResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -2486,7 +2496,8 @@ impl AWSSupport for AWSSupportClient {
 
                     serde_json::from_str::<DescribeTrustedAdvisorCheckSummariesResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -2524,7 +2535,8 @@ impl AWSSupport for AWSSupportClient {
 
                     serde_json::from_str::<DescribeTrustedAdvisorChecksResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -2560,7 +2572,8 @@ impl AWSSupport for AWSSupportClient {
 
                     serde_json::from_str::<RefreshTrustedAdvisorCheckResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -2593,7 +2606,8 @@ impl AWSSupport for AWSSupportClient {
 
                     serde_json::from_str::<ResolveCaseResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(

@@ -445,7 +445,8 @@ impl CostAndUsageReport for CostAndUsageReportClient {
 
                     serde_json::from_str::<DeleteReportDefinitionResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -483,7 +484,8 @@ impl CostAndUsageReport for CostAndUsageReportClient {
 
                     serde_json::from_str::<DescribeReportDefinitionsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -519,7 +521,8 @@ impl CostAndUsageReport for CostAndUsageReportClient {
 
                     serde_json::from_str::<PutReportDefinitionResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(

@@ -2084,7 +2084,8 @@ impl OpsWorksCM for OpsWorksCMClient {
 
                     serde_json::from_str::<AssociateNodeResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2120,7 +2121,8 @@ impl OpsWorksCM for OpsWorksCMClient {
 
                     serde_json::from_str::<CreateBackupResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2156,7 +2158,8 @@ impl OpsWorksCM for OpsWorksCMClient {
 
                     serde_json::from_str::<CreateServerResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2192,7 +2195,8 @@ impl OpsWorksCM for OpsWorksCMClient {
 
                     serde_json::from_str::<DeleteBackupResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2228,7 +2232,8 @@ impl OpsWorksCM for OpsWorksCMClient {
 
                     serde_json::from_str::<DeleteServerResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2265,7 +2270,8 @@ impl OpsWorksCM for OpsWorksCMClient {
 
                     serde_json::from_str::<DescribeAccountAttributesResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -2298,7 +2304,8 @@ impl OpsWorksCM for OpsWorksCMClient {
 
                     serde_json::from_str::<DescribeBackupsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2334,7 +2341,8 @@ impl OpsWorksCM for OpsWorksCMClient {
 
                     serde_json::from_str::<DescribeEventsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2374,7 +2382,8 @@ impl OpsWorksCM for OpsWorksCMClient {
 
                     serde_json::from_str::<DescribeNodeAssociationStatusResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -2407,7 +2416,8 @@ impl OpsWorksCM for OpsWorksCMClient {
 
                     serde_json::from_str::<DescribeServersResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2443,7 +2453,8 @@ impl OpsWorksCM for OpsWorksCMClient {
 
                     serde_json::from_str::<DisassociateNodeResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2479,7 +2490,8 @@ impl OpsWorksCM for OpsWorksCMClient {
 
                     serde_json::from_str::<RestoreServerResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2515,7 +2527,8 @@ impl OpsWorksCM for OpsWorksCMClient {
 
                     serde_json::from_str::<StartMaintenanceResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2551,7 +2564,8 @@ impl OpsWorksCM for OpsWorksCMClient {
 
                     serde_json::from_str::<UpdateServerResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2590,7 +2604,8 @@ impl OpsWorksCM for OpsWorksCMClient {
 
                     serde_json::from_str::<UpdateServerEngineAttributesResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {

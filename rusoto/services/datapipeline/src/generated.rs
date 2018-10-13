@@ -2713,7 +2713,8 @@ impl DataPipeline for DataPipelineClient {
 
                     serde_json::from_str::<ActivatePipelineOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2746,7 +2747,8 @@ impl DataPipeline for DataPipelineClient {
 
                     serde_json::from_str::<AddTagsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2782,7 +2784,8 @@ impl DataPipeline for DataPipelineClient {
 
                     serde_json::from_str::<CreatePipelineOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2818,7 +2821,8 @@ impl DataPipeline for DataPipelineClient {
 
                     serde_json::from_str::<DeactivatePipelineOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2877,7 +2881,8 @@ impl DataPipeline for DataPipelineClient {
 
                     serde_json::from_str::<DescribeObjectsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2913,7 +2918,8 @@ impl DataPipeline for DataPipelineClient {
 
                     serde_json::from_str::<DescribePipelinesOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2949,7 +2955,8 @@ impl DataPipeline for DataPipelineClient {
 
                     serde_json::from_str::<EvaluateExpressionOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2985,7 +2992,8 @@ impl DataPipeline for DataPipelineClient {
 
                     serde_json::from_str::<GetPipelineDefinitionOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -3020,7 +3028,8 @@ impl DataPipeline for DataPipelineClient {
 
                     serde_json::from_str::<ListPipelinesOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -3056,7 +3065,8 @@ impl DataPipeline for DataPipelineClient {
 
                     serde_json::from_str::<PollForTaskOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -3092,7 +3102,8 @@ impl DataPipeline for DataPipelineClient {
 
                     serde_json::from_str::<PutPipelineDefinitionOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -3127,7 +3138,8 @@ impl DataPipeline for DataPipelineClient {
 
                     serde_json::from_str::<QueryObjectsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -3163,7 +3175,8 @@ impl DataPipeline for DataPipelineClient {
 
                     serde_json::from_str::<RemoveTagsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -3199,7 +3212,8 @@ impl DataPipeline for DataPipelineClient {
 
                     serde_json::from_str::<ReportTaskProgressOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -3235,7 +3249,8 @@ impl DataPipeline for DataPipelineClient {
 
                     serde_json::from_str::<ReportTaskRunnerHeartbeatOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -3291,7 +3306,8 @@ impl DataPipeline for DataPipelineClient {
 
                     serde_json::from_str::<SetTaskStatusOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -3327,7 +3343,8 @@ impl DataPipeline for DataPipelineClient {
 
                     serde_json::from_str::<ValidatePipelineDefinitionOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {

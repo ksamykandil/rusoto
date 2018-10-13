@@ -401,7 +401,7 @@ pub struct GetBlobOutput {
     #[serde(
         deserialize_with = "::rusoto_core::serialization::SerdeBlob::deserialize_blob",
         serialize_with = "::rusoto_core::serialization::SerdeBlob::serialize_blob",
-        default,
+        default
     )]
     pub content: Vec<u8>,
 }
@@ -1107,7 +1107,7 @@ pub struct PutFileInput {
     #[serde(
         deserialize_with = "::rusoto_core::serialization::SerdeBlob::deserialize_blob",
         serialize_with = "::rusoto_core::serialization::SerdeBlob::serialize_blob",
-        default,
+        default
     )]
     pub file_content: Vec<u8>,
     /// <p>The file mode permissions of the blob. Valid file mode permissions are listed below.</p>
@@ -7567,7 +7567,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<BatchGetRepositoriesOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -7625,7 +7626,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<CreatePullRequestOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -7661,7 +7663,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<CreateRepositoryOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -7697,7 +7700,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<DeleteBranchOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -7733,7 +7737,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<DeleteCommentContentOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -7768,7 +7773,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<DeleteRepositoryOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -7807,7 +7813,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<DescribePullRequestEventsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -7837,7 +7844,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<GetBlobOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -7870,7 +7878,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<GetBranchOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -7906,7 +7915,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<GetCommentOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -7945,7 +7955,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<GetCommentsForComparedCommitOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -7981,7 +7992,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<GetCommentsForPullRequestOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -8011,7 +8023,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<GetCommitOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -8047,7 +8060,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<GetDifferencesOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -8083,7 +8097,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<GetMergeConflictsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -8119,7 +8134,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<GetPullRequestOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -8155,7 +8171,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<GetRepositoryOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -8191,7 +8208,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<GetRepositoryTriggersOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -8226,7 +8244,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<ListBranchesOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -8262,7 +8281,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<ListPullRequestsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -8298,7 +8318,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<ListRepositoriesOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -8337,7 +8358,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<MergePullRequestByFastForwardOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -8373,7 +8395,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<PostCommentForComparedCommitOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -8409,7 +8432,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<PostCommentForPullRequestOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -8442,7 +8466,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<PostCommentReplyOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -8475,7 +8500,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<PutFileOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -8511,7 +8537,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<PutRepositoryTriggersOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -8546,7 +8573,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<TestRepositoryTriggersOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -8581,7 +8609,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<UpdateCommentOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -8645,7 +8674,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<UpdatePullRequestDescriptionOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -8681,7 +8711,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<UpdatePullRequestStatusOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -8714,7 +8745,8 @@ impl CodeCommit for CodeCommitClient {
 
                     serde_json::from_str::<UpdatePullRequestTitleOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(

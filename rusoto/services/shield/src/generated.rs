@@ -2458,7 +2458,8 @@ impl Shield for ShieldClient {
 
                     serde_json::from_str::<AssociateDRTLogBucketResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2493,7 +2494,8 @@ impl Shield for ShieldClient {
 
                     serde_json::from_str::<AssociateDRTRoleResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2529,7 +2531,8 @@ impl Shield for ShieldClient {
 
                     serde_json::from_str::<CreateProtectionResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2563,7 +2566,8 @@ impl Shield for ShieldClient {
 
                     serde_json::from_str::<CreateSubscriptionResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2599,7 +2603,8 @@ impl Shield for ShieldClient {
 
                     serde_json::from_str::<DeleteProtectionResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2633,7 +2638,8 @@ impl Shield for ShieldClient {
 
                     serde_json::from_str::<DeleteSubscriptionResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2669,7 +2675,8 @@ impl Shield for ShieldClient {
 
                     serde_json::from_str::<DescribeAttackResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2703,7 +2710,8 @@ impl Shield for ShieldClient {
 
                     serde_json::from_str::<DescribeDRTAccessResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2741,7 +2749,8 @@ impl Shield for ShieldClient {
 
                     serde_json::from_str::<DescribeEmergencyContactSettingsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -2776,7 +2785,8 @@ impl Shield for ShieldClient {
 
                     serde_json::from_str::<DescribeProtectionResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2810,7 +2820,8 @@ impl Shield for ShieldClient {
 
                     serde_json::from_str::<DescribeSubscriptionResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2848,7 +2859,8 @@ impl Shield for ShieldClient {
 
                     serde_json::from_str::<DisassociateDRTLogBucketResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -2879,7 +2891,8 @@ impl Shield for ShieldClient {
 
                     serde_json::from_str::<DisassociateDRTRoleResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2912,7 +2925,8 @@ impl Shield for ShieldClient {
 
                     serde_json::from_str::<GetSubscriptionStateResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2947,7 +2961,8 @@ impl Shield for ShieldClient {
 
                     serde_json::from_str::<ListAttacksResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2983,7 +2998,8 @@ impl Shield for ShieldClient {
 
                     serde_json::from_str::<ListProtectionsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -3023,7 +3039,8 @@ impl Shield for ShieldClient {
 
                     serde_json::from_str::<UpdateEmergencyContactSettingsResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -3056,7 +3073,8 @@ impl Shield for ShieldClient {
 
                     serde_json::from_str::<UpdateSubscriptionResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(

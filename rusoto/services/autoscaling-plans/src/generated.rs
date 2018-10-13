@@ -922,7 +922,8 @@ impl AutoscalingPlans for AutoscalingPlansClient {
 
                     serde_json::from_str::<CreateScalingPlanResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -961,7 +962,8 @@ impl AutoscalingPlans for AutoscalingPlansClient {
 
                     serde_json::from_str::<DeleteScalingPlanResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -1000,7 +1002,8 @@ impl AutoscalingPlans for AutoscalingPlansClient {
 
                     serde_json::from_str::<DescribeScalingPlanResourcesResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -1036,7 +1039,8 @@ impl AutoscalingPlans for AutoscalingPlansClient {
 
                     serde_json::from_str::<DescribeScalingPlansResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -1074,7 +1078,8 @@ impl AutoscalingPlans for AutoscalingPlansClient {
 
                     serde_json::from_str::<UpdateScalingPlanResponse>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(

@@ -8521,7 +8521,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<AcceptPortfolioShareOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -8560,7 +8561,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<AssociatePrincipalWithPortfolioOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -8598,7 +8600,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<AssociateProductWithPortfolioOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -8635,7 +8638,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<AssociateTagOptionWithResourceOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -8668,7 +8672,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<CopyProductOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -8707,7 +8712,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<CreateConstraintOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -8746,7 +8752,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<CreatePortfolioOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -8785,7 +8792,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<CreatePortfolioShareOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -8820,7 +8828,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<CreateProductOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -8859,7 +8868,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<CreateProvisionedProductPlanOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -8895,7 +8905,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<CreateProvisioningArtifactOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -8931,7 +8942,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<CreateTagOptionOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -8970,7 +8982,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<DeleteConstraintOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -9009,7 +9022,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<DeletePortfolioOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -9048,7 +9062,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<DeletePortfolioShareOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -9083,7 +9098,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<DeleteProductOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -9122,7 +9138,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<DeleteProvisionedProductPlanOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -9158,7 +9175,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<DeleteProvisioningArtifactOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -9194,7 +9212,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<DeleteTagOptionOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -9233,7 +9252,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<DescribeConstraintOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -9272,7 +9292,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<DescribeCopyProductStatusOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -9308,7 +9329,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<DescribePortfolioOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -9347,7 +9369,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<DescribeProductOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -9386,7 +9409,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<DescribeProductAsAdminOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -9424,7 +9448,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<DescribeProductViewOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -9462,7 +9487,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<DescribeProvisionedProductOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -9499,7 +9525,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<DescribeProvisionedProductPlanOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -9535,7 +9562,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<DescribeProvisioningArtifactOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -9572,7 +9600,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<DescribeProvisioningParametersOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -9605,7 +9634,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<DescribeRecordOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -9644,7 +9674,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<DescribeTagOptionOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -9686,7 +9717,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<DisassociatePrincipalFromPortfolioOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -9725,7 +9757,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<DisassociateProductFromPortfolioOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -9764,7 +9797,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<DisassociateTagOptionFromResourceOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -9802,7 +9836,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<ExecuteProvisionedProductPlanOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -9838,7 +9873,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<ListAcceptedPortfolioSharesOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -9874,7 +9910,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<ListConstraintsForPortfolioOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -9910,7 +9947,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<ListLaunchPathsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -9949,7 +9987,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<ListPortfolioAccessOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -9984,7 +10023,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<ListPortfoliosOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -10023,7 +10063,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<ListPortfoliosForProductOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -10059,7 +10100,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<ListPrincipalsForPortfolioOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -10095,7 +10137,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<ListProvisionedProductPlansOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -10131,7 +10174,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<ListProvisioningArtifactsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -10167,7 +10211,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<ListRecordHistoryOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -10206,7 +10251,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<ListResourcesForTagOptionOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -10239,7 +10285,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<ListTagOptionsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -10278,7 +10325,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<ProvisionProductOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -10317,7 +10365,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<RejectPortfolioShareOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -10355,7 +10404,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<ScanProvisionedProductsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -10388,7 +10438,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<SearchProductsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -10427,7 +10478,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<SearchProductsAsAdminOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -10465,7 +10517,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<SearchProvisionedProductsOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -10501,7 +10554,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<TerminateProvisionedProductOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -10537,7 +10591,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<UpdateConstraintOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -10576,7 +10631,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<UpdatePortfolioOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -10612,7 +10668,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<UpdateProductOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -10651,7 +10708,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<UpdateProvisionedProductOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -10687,7 +10745,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<UpdateProvisioningArtifactOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -10723,7 +10782,8 @@ impl ServiceCatalog for ServiceCatalogClient {
 
                     serde_json::from_str::<UpdateTagOptionOutput>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(

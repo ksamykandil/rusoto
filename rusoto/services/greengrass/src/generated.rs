@@ -10126,7 +10126,8 @@ impl GreenGrass for GreenGrassClient {
                     debug!("Response status: {}", response.status);
                     let result = serde_json::from_slice::<
                         CreateSubscriptionDefinitionVersionResponse,
-                    >(&body).unwrap();
+                    >(&body)
+                    .unwrap();
 
                     result
                 }))
@@ -12251,7 +12252,8 @@ impl GreenGrass for GreenGrassClient {
                     debug!("Response status: {}", response.status);
                     let result = serde_json::from_slice::<
                         UpdateGroupCertificateConfigurationResponse,
-                    >(&body).unwrap();
+                    >(&body)
+                    .unwrap();
 
                     result
                 }))

@@ -2598,7 +2598,8 @@ impl MigrationHub for MigrationHubClient {
 
                     serde_json::from_str::<AssociateCreatedArtifactResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -2634,7 +2635,8 @@ impl MigrationHub for MigrationHubClient {
 
                     serde_json::from_str::<AssociateDiscoveredResourceResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -2667,7 +2669,8 @@ impl MigrationHub for MigrationHubClient {
 
                     serde_json::from_str::<CreateProgressUpdateStreamResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -2700,7 +2703,8 @@ impl MigrationHub for MigrationHubClient {
 
                     serde_json::from_str::<DeleteProgressUpdateStreamResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -2733,7 +2737,8 @@ impl MigrationHub for MigrationHubClient {
 
                     serde_json::from_str::<DescribeApplicationStateResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -2766,7 +2771,8 @@ impl MigrationHub for MigrationHubClient {
 
                     serde_json::from_str::<DescribeMigrationTaskResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2804,7 +2810,8 @@ impl MigrationHub for MigrationHubClient {
 
                     serde_json::from_str::<DisassociateCreatedArtifactResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -2841,7 +2848,8 @@ impl MigrationHub for MigrationHubClient {
 
                     serde_json::from_str::<DisassociateDiscoveredResourceResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -2874,7 +2882,8 @@ impl MigrationHub for MigrationHubClient {
 
                     serde_json::from_str::<ImportMigrationTaskResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2909,7 +2918,8 @@ impl MigrationHub for MigrationHubClient {
 
                     serde_json::from_str::<ListCreatedArtifactsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -2944,7 +2954,8 @@ impl MigrationHub for MigrationHubClient {
 
                     serde_json::from_str::<ListDiscoveredResourcesResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -2977,7 +2988,8 @@ impl MigrationHub for MigrationHubClient {
 
                     serde_json::from_str::<ListMigrationTasksResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -3013,7 +3025,8 @@ impl MigrationHub for MigrationHubClient {
 
                     serde_json::from_str::<ListProgressUpdateStreamsResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -3046,7 +3059,8 @@ impl MigrationHub for MigrationHubClient {
 
                     serde_json::from_str::<NotifyApplicationStateResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
@@ -3081,7 +3095,8 @@ impl MigrationHub for MigrationHubClient {
 
                     serde_json::from_str::<NotifyMigrationTaskStateResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(response.buffer().from_err().and_then(|response| {
@@ -3114,7 +3129,8 @@ impl MigrationHub for MigrationHubClient {
 
                     serde_json::from_str::<PutResourceAttributesResult>(
                         String::from_utf8_lossy(body.as_ref()).as_ref(),
-                    ).unwrap()
+                    )
+                    .unwrap()
                 }))
             } else {
                 Box::new(
